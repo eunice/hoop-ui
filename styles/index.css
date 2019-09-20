@@ -1,0 +1,15 @@
+/*@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";*/
+
+@tailwind base;
+@import "tailwindcss/components";
+@tailwind utilities;
+
+body {
+  @apply bg-red-200 font-sans;
+  overflow-x: hidden;
+}
+
+.sidebar-inner {
+  top: 60px;
+}
